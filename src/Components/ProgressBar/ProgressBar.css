@@ -1,0 +1,32 @@
+* {
+    box-sizing: inherit;
+  }
+  
+  #root {
+    box-sizing: border-box;
+  }
+  
+  .progress {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .progress-container {
+    display: block;
+    position: relative;
+    width: 40vh;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .progress-bar{
+    display: block;
+    position: relative;
+    height: 24px;
+    background-color: #36383E;
+    border-radius: 5px;
+    transition: width .5s ease-in-out;
+  }

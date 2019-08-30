@@ -1,0 +1,8 @@
+.btn {
+    display: inline-block;
+    color: #273942;
+    font-family: 'Open Sans', Ariel, sans-serif;
+    border: 1px solid #CCCCCC;
+    border-radius: 100px;
+    padding: 2px 15px;
+  }
